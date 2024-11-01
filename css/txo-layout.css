@@ -1,0 +1,35 @@
+/* Dynamic CSS */
+
+.txo-title-bar h3.txo-subtitle:after {
+	position: relative;
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	content: " ";
+	width: 16%;
+	height: 3px;
+	background-color: #83b735;
+	clear: both;
+}
+
+.txo-title-bar .txo-align-center h3.txo-subtitle:after {
+	margin-left: auto;
+	margin-right: auto;
+	/*margin-bottom: 72px;	*/
+}
+
+.txo-title-bar .txo-align-right h3.txo-subtitle:after {
+	right: 0px;
+	margin-left: auto;
+}
+
+.txo-title-bar .txo-align-right h3.txo-title,
+.txo-title-bar .txo-align-right h3.txo-subtitle,
+.txo-title-bar .txo-align-left h3.txo-title,
+.txo-title-bar .txo-align-left h3.txo-subtitle {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+
+
